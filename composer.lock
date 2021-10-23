@@ -1,0 +1,81 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c8fa18524c023d47cc8ec291557dbfa1",
+    "packages": [
+        {
+            "name": "spatie/emoji",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/emoji.git",
+                "reference": "69ff9c675d9a732319bf3f6c2d705f376ee7935f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/emoji/zipball/69ff9c675d9a732319bf3f6c2d705f376ee7935f",
+                "reference": "69ff9c675d9a732319bf3f6c2d705f376ee7935f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": "^7.2|^8.0"
+            },
+            "require-dev": {
+                "ext-iconv": "*",
+                "ext-json": "*",
+                "guzzlehttp/guzzle": "^7.0",
+                "phpunit/phpunit": "^9.4",
+                "symfony/console": "^4.2",
+                "twig/twig": "^2.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Emoji\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Display emoji characters",
+            "homepage": "https://github.com/spatie/emoji",
+            "keywords": [
+                "emoji",
+                "spatie"
+            ],
+            "funding": [
+                {
+                    "url": "https://spatie.be/open-source/support-us",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/spatie",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-09-27T17:14:27+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
