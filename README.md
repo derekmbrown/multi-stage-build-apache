@@ -7,7 +7,7 @@ This is a small repository used to demonstrate a multi stage docker build setup 
 1. Build Dockerfile: `make build`.
 1. Start container: `make run`.
 1. Test app: `make test`.
-1. Verify the :sunglasses: (Smiling Face with Sunglasses emoji) displays. 
+1. Verify the :sunglasses: displays. 
 
 ### What's Happening:
 
