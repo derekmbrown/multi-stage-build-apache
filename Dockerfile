@@ -9,7 +9,7 @@ COPY composer.lock /app
 RUN composer install
 
 # 4. Build PHP/Apache stage
-FROM php:7.2-apache
+FROM php:8.0-apache
 
 # 5. Copy over index.php
 COPY index.php /var/www/html
