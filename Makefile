@@ -1,28 +1,28 @@
-build:
+build_docker:
 	docker build -t web .
 
-run:
+run_docker:
 	docker run -p "8080:80" -d web
 
-delete:
+delete_docker:
 	docker stop $$(docker ps -aq)
 	docker rm $$(docker ps -aq)
 	docker images -q |xargs docker rmi
 	docker system prune -f
 
-list:
+list_docker:
 	docker images && docker ps -a
 
-exec:
+exec_docker:
 	docker exec -it web bash
 
-logs:
+logs_docker:
 	docker logs web -f
 
-reset:
+reset_docker:
 	make delete
 	make build
 	make run
 
-test:
+test_docker:
 	curl -i http://localhost:8080/index.php
